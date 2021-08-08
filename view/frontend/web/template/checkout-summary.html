@@ -1,0 +1,16 @@
+<div class="checkout-summary-wraper" style="background-color: #e0f2f1; border: solid 1px #004d40;padding: 20px;border-radius: 10px;">
+    <h3 translate="'Checkout Summary'" style="margin:0;"></h3>
+    <div>
+        <h4 translate="'Name'"></h4>
+        <span data-bind="text: firstname"></span>
+        <span data-bind="text: lastname"></span>
+        <span data-bind="text: showCompany()"></span>
+    </div>
+    <div>
+        <h4 translate="'Address'"></h4>
+        <span data-bind="text: street[0]"></span>
+        <span data-bind="text: city"></span>
+        <span data-bind="text: region"></span>
+        <span data-bind="text: showCountry()"></span>
+    </div>
+</div>
